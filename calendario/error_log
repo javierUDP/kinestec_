@@ -1,0 +1,20 @@
+[11-Jun-2019 23:53:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/calendario/calendar.php on line 608
+[12-Jun-2019 00:02:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kinestec/public_html/calendario/calendar.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/calendario/calendar.php on line 8
+[12-Jun-2019 00:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kinestec/public_html/calendario/calendar.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/calendario/calendar.php on line 8
+[12-Jun-2019 00:03:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/kinestec/public_html/calendario/calendar.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/calendario/calendar.php on line 8
+[12-Jun-2019 00:25:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/calendario/addEvent.php:14) in /home/kinestec/public_html/calendario/addEvent.php on line 28
+[12-Jun-2019 00:26:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/calendario/addEvent.php:14) in /home/kinestec/public_html/calendario/addEvent.php on line 28
+[12-Jun-2019 00:26:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/calendario/addEvent.php:14) in /home/kinestec/public_html/calendario/addEvent.php on line 28
+[12-Jun-2019 00:29:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/calendario/addEvent.php:14) in /home/kinestec/public_html/calendario/addEvent.php on line 28
+[12-Jun-2019 00:30:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/calendario/addEvent.php:14) in /home/kinestec/public_html/calendario/addEvent.php on line 28
+[12-Jun-2019 00:54:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/calendario/addEvent.php:14) in /home/kinestec/public_html/calendario/addEvent.php on line 28
+[12-Jun-2019 01:11:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/calendario/calendar.php on line 608
