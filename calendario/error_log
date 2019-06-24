@@ -18,3 +18,7 @@ Stack trace:
 [12-Jun-2019 00:30:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/calendario/addEvent.php:14) in /home/kinestec/public_html/calendario/addEvent.php on line 28
 [12-Jun-2019 00:54:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/calendario/addEvent.php:14) in /home/kinestec/public_html/calendario/addEvent.php on line 28
 [12-Jun-2019 01:11:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/calendario/calendar.php on line 608
+[12-Jun-2019 05:36:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/calendario/calendar.php on line 602
+[12-Jun-2019 23:20:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/calendario/calendar.php on line 602
+[21-Jun-2019 18:06:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/calendario/calendar.php on line 602
+[21-Jun-2019 18:07:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/calendario/calendar.php on line 602

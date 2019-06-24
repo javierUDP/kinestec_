@@ -1,0 +1,35 @@
+[24-Jun-2019 09:00:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'cliente' doesn't have a default value in /home/kinestec/public_html/ben/calendario/insert.php:18
+Stack trace:
+#0 /home/kinestec/public_html/ben/calendario/insert.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/calendario/insert.php on line 18
+[24-Jun-2019 09:00:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'cliente' doesn't have a default value in /home/kinestec/public_html/ben/calendario/insert.php:18
+Stack trace:
+#0 /home/kinestec/public_html/ben/calendario/insert.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/calendario/insert.php on line 18
+[24-Jun-2019 09:06:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'cliente' doesn't have a default value in /home/kinestec/public_html/ben/calendario/insert.php:18
+Stack trace:
+#0 /home/kinestec/public_html/ben/calendario/insert.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/calendario/insert.php on line 18
+[24-Jun-2019 09:16:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'cliente' doesn't have a default value in /home/kinestec/public_html/ben/calendario/insert.php:18
+Stack trace:
+#0 /home/kinestec/public_html/ben/calendario/insert.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/calendario/insert.php on line 18
+[24-Jun-2019 09:35:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'cliente' doesn't have a default value in /home/kinestec/public_html/ben/calendario/insert.php:18
+Stack trace:
+#0 /home/kinestec/public_html/ben/calendario/insert.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/calendario/insert.php on line 18
+[24-Jun-2019 09:37:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'cliente' doesn't have a default value in /home/kinestec/public_html/ben/calendario/insert.php:18
+Stack trace:
+#0 /home/kinestec/public_html/ben/calendario/insert.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/calendario/insert.php on line 18
+[24-Jun-2019 09:38:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'cliente' doesn't have a default value in /home/kinestec/public_html/ben/calendario/insert.php:18
+Stack trace:
+#0 /home/kinestec/public_html/ben/calendario/insert.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/calendario/insert.php on line 18

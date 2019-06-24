@@ -1,5 +1,6 @@
 <?
-define ("PEPPER",'s4l7S4!t');
+//define ("PEPPER",'s4l7S4!t');
+define ("PEPPER",'s4l7S4!rg3t');
 define ("WEBSITE",'kinestec.ddns.net');
 define ("SCRIPTFOLDER",'/login');
 $hosting="localhost";

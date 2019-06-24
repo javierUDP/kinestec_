@@ -1,0 +1,110 @@
+[23-Jun-2019 18:16:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[23-Jun-2019 18:16:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 183
+[23-Jun-2019 19:35:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[23-Jun-2019 19:35:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 183
+[23-Jun-2019 21:25:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[23-Jun-2019 21:25:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 183
+[23-Jun-2019 23:28:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[23-Jun-2019 23:28:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 183
+[23-Jun-2019 23:28:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[23-Jun-2019 23:28:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 183
+[23-Jun-2019 23:29:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[23-Jun-2019 23:29:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 183
+[24-Jun-2019 00:21:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 00:21:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 183
+[24-Jun-2019 00:37:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 00:37:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 00:39:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 00:39:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 00:39:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 00:39:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 00:42:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 00:42:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 00:47:21 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kinestec/public_html/ben/topbar.php on line 17
+[24-Jun-2019 00:47:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kinestec/public_html/ben/topbar.php on line 17
+[24-Jun-2019 00:47:49 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kinestec/public_html/ben/topbar.php on line 17
+[24-Jun-2019 00:47:50 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kinestec/public_html/ben/topbar.php on line 17
+[24-Jun-2019 00:48:34 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kinestec/public_html/ben/topbar.php on line 17
+[24-Jun-2019 00:51:12 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kinestec/public_html/ben/topbar.php on line 18
+[24-Jun-2019 00:51:27 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kinestec/public_html/ben/topbar.php on line 18
+[24-Jun-2019 00:51:29 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/kinestec/public_html/ben/topbar.php on line 18
+[24-Jun-2019 00:52:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/kinestec/public_html/ben/topbar.php:41
+Stack trace:
+#0 /home/kinestec/public_html/ben/index.php(56): include()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/topbar.php on line 41
+[24-Jun-2019 00:52:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/kinestec/public_html/ben/topbar.php:41
+Stack trace:
+#0 /home/kinestec/public_html/ben/index.php(56): include()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/topbar.php on line 41
+[24-Jun-2019 01:15:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 01:15:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 01:18:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 01:18:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 01:24:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/topbar.php:15
+Stack trace:
+#0 /home/kinestec/public_html/ben/index.php(56): include()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/topbar.php on line 15
+[24-Jun-2019 01:25:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/topbar.php:16
+Stack trace:
+#0 /home/kinestec/public_html/ben/index.php(56): include()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/topbar.php on line 16
+[24-Jun-2019 01:31:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 01:31:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 02:00:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 02:00:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 02:01:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 02:01:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 02:01:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 02:01:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 02:04:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 02:04:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 02:24:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 212
+[24-Jun-2019 02:24:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 04:54:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 214
+[24-Jun-2019 04:54:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 166
+[24-Jun-2019 05:25:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 215
+[24-Jun-2019 05:25:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 170
+[24-Jun-2019 06:04:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 215
+[24-Jun-2019 06:04:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 172
+[24-Jun-2019 06:31:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/calendario/calendar2.php on line 215
+[24-Jun-2019 06:31:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/kinestec/public_html/ben/index.php on line 174
+[24-Jun-2019 07:15:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'start' in 'field list' in /home/kinestec/public_html/ben/index.php:12
+Stack trace:
+#0 /home/kinestec/public_html/ben/index.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/index.php on line 12
+[24-Jun-2019 07:15:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'start' in 'field list' in /home/kinestec/public_html/ben/index.php:12
+Stack trace:
+#0 /home/kinestec/public_html/ben/index.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/index.php on line 12
+[24-Jun-2019 07:15:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'start' in 'field list' in /home/kinestec/public_html/ben/index.php:12
+Stack trace:
+#0 /home/kinestec/public_html/ben/index.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/index.php on line 12
+[24-Jun-2019 07:20:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpAlert() in /home/kinestec/public_html/ben/sidebar.php:60
+Stack trace:
+#0 /home/kinestec/public_html/ben/index.php(56): require()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/sidebar.php on line 60
+[24-Jun-2019 08:30:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:30:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:30:32 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:30:33 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:31:05 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:36:18 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:36:19 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:36:22 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:36:46 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:36:46 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:37:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:37:36 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:37:36 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:37:37 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:37:37 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32
+[24-Jun-2019 08:37:37 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/kinestec/public_html/ben/calendario/calendarfinal.php on line 32

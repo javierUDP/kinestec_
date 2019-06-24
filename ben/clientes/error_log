@@ -1,0 +1,23 @@
+[24-Jun-2019 04:34:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/clientes/clientes.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/clientes/clientes.php on line 128
+[24-Jun-2019 11:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/clientes/clientes.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/clientes/clientes.php on line 128
+[24-Jun-2019 11:26:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'observacion' doesn't have a default value in /home/kinestec/public_html/ben/clientes/add.php:41
+Stack trace:
+#0 /home/kinestec/public_html/ben/clientes/add.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/clientes/add.php on line 41
+[24-Jun-2019 11:27:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'observacion' doesn't have a default value in /home/kinestec/public_html/ben/clientes/add.php:41
+Stack trace:
+#0 /home/kinestec/public_html/ben/clientes/add.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/clientes/add.php on line 41
+[24-Jun-2019 14:30:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/kinestec/public_html/ben/clientes/edit_ficha.php:39
+Stack trace:
+#0 /home/kinestec/public_html/ben/clientes/edit_ficha.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/clientes/edit_ficha.php on line 39
