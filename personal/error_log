@@ -1,0 +1,51 @@
+[23-Jun-2019 19:57:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'observacion' doesn't have a default value in /home/kinestec/public_html/ben/personal/add.php:39
+Stack trace:
+#0 /home/kinestec/public_html/ben/personal/add.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/personal/add.php on line 39
+[23-Jun-2019 20:06:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'tipo' in 'field list' in /home/kinestec/public_html/ben/personal/add.php:43
+Stack trace:
+#0 /home/kinestec/public_html/ben/personal/add.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/personal/add.php on line 43
+[23-Jun-2019 20:09:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kinestec_kinestec.personal' doesn't exist in /home/kinestec/public_html/ben/personal/add.php:43
+Stack trace:
+#0 /home/kinestec/public_html/ben/personal/add.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/personal/add.php on line 43
+[23-Jun-2019 22:59:04 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/kinestec/public_html/ben/personal/add.php on line 13
+[23-Jun-2019 23:01:11 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/kinestec/public_html/ben/personal/add.php on line 13
+[23-Jun-2019 23:01:51 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/kinestec/public_html/ben/personal/add.php on line 18
+[23-Jun-2019 23:10:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/kinestec/public_html/ben/personal/add.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/personal/add.php on line 64
+[23-Jun-2019 23:42:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/personal/personal.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/personal/personal.php on line 113
+[24-Jun-2019 03:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/personal/personal.php:109
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/personal/personal.php on line 109
+[24-Jun-2019 03:33:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/kinestec/public_html/ben/personal/add.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/personal/add.php on line 64
+[24-Jun-2019 03:39:47 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/kinestec/public_html/ben/personal/add_modal.php on line 13
+[24-Jun-2019 03:40:16 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/kinestec/public_html/ben/personal/add.php on line 31
+[24-Jun-2019 03:40:40 UTC] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/kinestec/public_html/ben/personal/add.php on line 26
+[24-Jun-2019 03:42:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/ben/personal/add.php:33) in /home/kinestec/public_html/ben/personal/add.php on line 34
+[24-Jun-2019 03:42:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/ben/personal/add.php:33) in /home/kinestec/public_html/ben/personal/add.php on line 84
+[24-Jun-2019 03:43:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/ben/personal/add.php:33) in /home/kinestec/public_html/ben/personal/add.php on line 84
+[24-Jun-2019 03:44:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/ben/personal/add.php:33) in /home/kinestec/public_html/ben/personal/add.php on line 84
+[24-Jun-2019 03:46:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kinestec/public_html/ben/personal/add.php:34) in /home/kinestec/public_html/ben/personal/add.php on line 35
+[24-Jun-2019 03:56:23 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/kinestec/public_html/ben/personal/add_modal.php on line 13
+[24-Jun-2019 03:56:29 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/kinestec/public_html/ben/personal/add_modal.php on line 13
+[24-Jun-2019 03:56:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/kinestec/public_html/ben/personal/add_modal.php on line 13
+[24-Jun-2019 04:16:23 UTC] PHP Parse error:  syntax error, unexpected 'myDiv2' (T_STRING), expecting ',' or ';' in /home/kinestec/public_html/ben/personal/personal.php on line 84
+[24-Jun-2019 04:16:25 UTC] PHP Parse error:  syntax error, unexpected 'myDiv2' (T_STRING), expecting ',' or ';' in /home/kinestec/public_html/ben/personal/personal.php on line 84
+[24-Jun-2019 07:08:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/personal/personal.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/personal/personal.php on line 119

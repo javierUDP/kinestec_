@@ -2,17 +2,21 @@
 session_start();
 //checkear las cookies
 include("check.php");
-
+function phpAlert($msg) {
+    echo '<script type="text/javascript">alert("' . $msg . '")</script>';
+}
 if (isset($_SESSION['user'])) {
 header("location:../index.php");
 $message="Tu cuenta ya está ingresada.<a href=../index.php>here</a> ";
+phpAlert($message);
 }
 
 if (isset($_POST["login"])) {
+
 $_POST["email"]=trim($_POST["email"]);
 do {
 
-if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)===false or !preg_match('/@.+\./', $_POST["email"])) {$message="Invalid Email";break;}
+//if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)===false or !preg_match('/@.+\./', $_POST["email"])) {$message="Invalid Email";break;}
 //evitar brutal force attack
 $sql = $db->prepare("SELECT data FROM log_accessi WHERE ip='".$_SERVER['REMOTE_ADDR']."' and accesso=0 and data>date_sub(now(), interval 10 minute) ORDER BY data DESC");
 $sql->execute();
@@ -23,16 +27,25 @@ $last=strtotime($last);
 $delay=min(max(($attempts-3),0)*2,30);
 
 
-if (time()<($last+$delay)) {$message="muchos intentos, espera $delay segundos antes de intentar nuevamente";break;}
-$sql = $db->prepare("SELECT * FROM utenti WHERE email=?");
-$sql->bindParam(1, $_POST["email"]);
+if (time()<($last+$delay)) {$message="muchos intentos, espera $delay segundos antes de intentar nuevamente";
+  phpAlert($message);
+  break;
+
+
+}
+$sql = $db->prepare("SELECT * FROM utenti WHERE rut=?");
+$sql->bindParam(1, $_POST["rut"]);
 $sql->execute();
 $rows = $sql->fetch(PDO::FETCH_ASSOC);
 $checked = password_verify($_POST['password'].PEPPER, $rows["password"]);
 if ($checked) { //if email/pw are right:
-    $message='Contraseña correcta <br>entra <a href=../index.php>aquí</a>';
+    $message='Contraseña correcta';
+
 	$_SESSION['user'] = $rows["id"];
   $_SESSION['email'] = $rows["email"];
+  $_SESSION['rut'] =$rows["rut"];
+  $_SESSION['nombre'] =$rows["nombre"];
+
 	if ($_POST["remember"]=="true") {
 
 	 $selector = aZ();
@@ -47,13 +60,14 @@ setcookie(
          '/',
          WEBSITE,
          false, // solo si hay https, cambiar a true
-         false  // http-only
+         false  // solo http
     );
 }
 header("location:../index.php");
 //if email/pw are wrong
 } else {
-    $message=($attempts>1)?"Credenciales incorrectas ($attempts attempts)":"Credenciales incorrectas, reintente";
+    $message=($attempts>1)?"Credenciales incorrectas ($attempts intentos)":"Credenciales incorrectas, reintente";
+    phpAlert($message);
 }
 //save the access log
 $sql = $db->prepare("INSERT INTO log_accessi (ip,mail_immessa,accesso) VALUES (? ,? ,?)");
@@ -107,17 +121,17 @@ $sql->execute();
                   </div>
                   <form action="login.php" method="POST">
                     <div class="form-group">
-                      <input type="email" required class="form-control form-control-user" name="email" placeholder="usuario">
+                      <input type="text" required class="form-control form-control-user" name="rut" id="rut" placeholder="RUT" maxlength="12">
                     </div>
                     <div class="form-group">
                       <input type="password" required class="form-control form-control-user" name="password" placeholder="Contraseña">
                     </div>
-                  <div class="form-group">
+                  <!--<div class="form-group">
                       <div class="custom-control custom-checkbox small">
                         <input type="checkbox" class="custom-control-input" id="customCheck" name="remember value=true">
                         <label class="custom-control-label" for="customCheck">Recuerdame</label>
                       </div>
-                    </div>
+                    </div>-->
                       <!--<a href="../index.php" class="btn btn-primary btn-user btn-block">
                       Login
                     </a>-->
@@ -158,7 +172,19 @@ $sql->execute();
 
   <!-- Custom scripts for all pages-->
   <script src="../js/sb-admin-2.min.js"></script>
-
+  <script src="../js/rut.js"></script>
 </body>
+
+
+
+<script>
+
+$(document).ready(function() {
+   $('#rut').Rut();
+});
+
+
+
+</script>
 
 </html>

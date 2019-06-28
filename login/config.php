@@ -1,7 +1,7 @@
 <?php
  $hostBD = "localhost";
- $userBD = "kinestec_admin";
+ $userBD = "kinestec_ben";
  $passBD = "testito123testito123";
- $dataBD = "kinestec_kinestec";
+ $dataBD = "kinestec_kine2";
  $message = "";
  ?>

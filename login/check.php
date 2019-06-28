@@ -1,6 +1,5 @@
 <?
-//define ("PEPPER",'s4l7S4!t');
-define ("PEPPER",'s4l7S4!rg3t');
+define ("PEPPER",'s4l7S4!t');
 define ("WEBSITE",'kinestec.ddns.net');
 define ("SCRIPTFOLDER",'/login');
 $hosting="localhost";
@@ -13,7 +12,7 @@ function aZ ($n=12) {
 $chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 $bytes = random_ver($n);
 $result="";
-foreach (str_split($bytes) as $byte) $result .= $chars[ord($byte) % strlen($chars)];
+foreach (str_split(random_ver($n)) as $byte) $result .= $chars[ord($byte) % strlen($chars)];
 return $result;
 }
 function random_ver ($n=10) {

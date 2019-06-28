@@ -1,0 +1,23 @@
+[24-Jun-2019 04:34:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/clientes/clientes.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/clientes/clientes.php on line 128
+[24-Jun-2019 11:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/kinestec/public_html/ben/clientes/clientes.php:128
+Stack trace:
+#0 {main}
+  thrown in /home/kinestec/public_html/ben/clientes/clientes.php on line 128
+[24-Jun-2019 11:25:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'apellido' cannot be null in /home/kinestec/public_html/ben/maquinas/add.php:41
+Stack trace:
+#0 /home/kinestec/public_html/ben/maquinas/add.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/maquinas/add.php on line 41
+[24-Jun-2019 11:26:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'apellido' cannot be null in /home/kinestec/public_html/ben/maquinas/add.php:41
+Stack trace:
+#0 /home/kinestec/public_html/ben/maquinas/add.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/maquinas/add.php on line 41
+[24-Jun-2019 11:26:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'apellido' doesn't have a default value in /home/kinestec/public_html/ben/maquinas/add.php:33
+Stack trace:
+#0 /home/kinestec/public_html/ben/maquinas/add.php(33): PDOStatement->execute()
+#1 {main}
+  thrown in /home/kinestec/public_html/ben/maquinas/add.php on line 33
